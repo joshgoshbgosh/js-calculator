@@ -21,3 +21,6 @@ function calculate(answer){
   console.log("give me the",answer)
 }
 calculate()
+
+
+var calculation = []
