@@ -16,3 +16,8 @@ function pushOperator(buttons){
   console.log("more",buttons)
 }
 pushOperator()
+
+function calculate(answer){
+  console.log("give me the",answer)
+}
+calculate()
