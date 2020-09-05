@@ -13,22 +13,22 @@
     <div class="calculator">
        <input type="text" class="calculator-screen" value="0" disabled />
        <div class="calculator-keys">
-         <button type="button" class="clear" value="clear">C</button>
+         <button type="button" class="clear" value="clear"onclick="pushOperator(value)">C</button>
          <button type="button" class="plus-minus" value="plus-minus">+/-</button>
          <button type="button" class="percent" value="percent">%</button>
-         <button type="button" class="operator" value="/">&divide;</button>
+         <button type="button" class="operator" value="/"onclick="pushOperator(value)">&divide;</button>
          <button type="button" class="number" value="7"onclick="pushNumber(value)">7</button>
          <button type="button" class="number" value="8"onclick="pushNumber(value)">8</button>
          <button type="button" class="number" value="9"onclick="pushNumber(value)">9</button>
-         <button type="button" class="operator" value="*">&times;</button>
+         <button type="button" class="operator" value="*"onclick="pushOperator(value)">&times;</button>
          <button type="button" class="number" value="4"onclick="pushNumber(value)">4</button>
          <button type="button" class="number" value="5"onclick="pushNumber(value)">5</button>
          <button type="button" class="number" value="6"onclick="pushNumber(value)">6</button>
-         <button type="button" class="operator" value="-">-</button>
+         <button type="button" class="operator" value="-"onclick="pushOperator(value)">-</button>
          <button type="button" class="number" value="1"onclick="pushNumber(value)">1</button>
          <button type="button" class="number" value="2"onclick="pushNumber(value)">2</button>
          <button type="button" class="number" value="3"onclick="pushNumber(value)">3</button>
-         <button type="button" class="operator" value="+">+</button>
+         <button type="button" class="operator" value="+"onclick="pushOperator(value)">+</button>
          <button type="button" class="number btn-lg" value="0"onclick="pushNumber(value)">0</button>
          <button type="button" class="decimal" value=".">.</button>
          <button type="button" class="equal-sign" value="=">=</button>

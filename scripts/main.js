@@ -12,3 +12,7 @@ function pushNumber(digit){
 pushNumber()
 
 //}
+function pushOperator(buttons){
+  console.log("more",buttons)
+}
+pushOperator()
