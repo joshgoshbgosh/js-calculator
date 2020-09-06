@@ -3,24 +3,23 @@
   //"use strict"
 //   console.log(document.getElementsByClassName("number"))
 // document.getElementsByClassName("number").addEventListener("click", pushNumber);
-
+var calculation = []
 function pushNumber(digit){
   console.log("digit",digit)
-
+calculation.push(digit)
 
 }
-pushNumber()
+
 
 //}
-function pushOperator(buttons){
-  console.log("more",buttons)
+function pushOperator(opt){
+  console.log("more",opt)
+calculation.push(opt)
+
 }
-pushOperator()
+
+
 
 function calculate(answer){
-  console.log("give me the",answer)
+  console.log("give me the",answer,calculation)
 }
-calculate()
-
-
-var calculation = []
